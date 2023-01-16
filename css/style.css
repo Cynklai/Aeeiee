@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding-top: 17px;
+    position: fixed;
+    width: 100%;
+}
+
+.logo img{
+    width: 200px;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    padding-top: 27px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+/* navbar is responsive */
+input[type="checkbox"] {
+    display: none;
+}
+
+/* hamburger starts */
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+/* dropdown starts */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    background-color: black;
+    min-width: 200px;
+    box-shadow: 5px 0 0 red;
+    padding: 10px 14px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li {
+    margin: 10px;
+    padding: 9px;
+}
+
+/* dropdown ends */
+
+/* drop start */
+
+.drop {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    list-style-type: none;
+    background-color: black;
+    min-width: 200px;
+    box-shadow: 5px 0 0 red;
+    padding: 10px 14px;
+}
+
+.drop:hover .drop-content {
+    display: block;
+}
+
+.drop-content li {
+    margin: 10px;
+    padding: 9px;
+}
+
+/* drop end */
+
+
+.imgbody {
+    padding-top: 50px;
+}
+
+.imgbody img {
+    width: 30vw;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(160deg, #f5bb44 0%, #f9d86d 100%);
+    padding-top: 7em;
+    width: 100%;
+    height: 50em;
+}
+
+.firstbody {
+    color: white;
+    padding-top: 10em;
+}
+
+.firstbody h1 {
+    font-size: 35px;
+}
+
+.firstbody p {
+    font-size: 17px;
+}
+
+button {
+    background-color: black;
+    font-size: 20px;
+    width: 160px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid black;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.roww {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    font-size: 15px;
+    height: 70px;
+    padding-top: 20px;
+}
+
+.it {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    align-items: center;
+    height: 400px;
+}
+
+.lappi {
+    padding-top: 20px;
+}
+
+.letters {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 80px;
+}
+
+.oop {
+    background-color: black;
+    width: 100%;
+    height: 500px;  
+}
+
+.oop h1 {
+    padding-top: 1em;
+}
+
+.letters a {
+    text-decoration: none;
+    color: red;
+}
+
+.gm {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    font-size: 17px;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 50vh;
+}
+
+input {
+    width: 40vw;
+    height: 45px;
+    outline: white;
+    outline-color: whitesmoke;
+    background-color: whitesmoke;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.sign {
+    background-color: whitesmoke;
+}
+
+.sign button {
+    background-color: red;
+    width: 40.5vw;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 22px;
+    border: none;
+}
+
+.second {
+    display: flex;
+    gap: 2em;
+    background-color: rgb(56, 55, 55);
+    padding-top: 25px;
+    padding-left: 170px;
+    color: rgb(211, 210, 210);
+    font-size: 17px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(31, 30, 30);
+    color: gray;
+    height: 45px;
+    padding-top: 35px;
+}
+
+footer .foot {
+    font-size: 19px;
+}
